@@ -1,13 +1,13 @@
 ﻿
-using ConsoleApp1.AdoExamples;
+using Dapper.CRUD;
 
-Console.WriteLine("Welcome To Ado CRUD! And Edit (Console App)");
+Console.WriteLine("Welcome To Dapper CRUD! And Edit (Console App)");
 Console.WriteLine();
 
-AdoExample ado = new AdoExample();
+DapperExamples dp = new DapperExamples();
 int count = 1;
 string TryAgainAsk()
-{        
+{
 
     Console.WriteLine("Do You Want To Try Again? (y) or (n)");
     string i = Console.ReadLine()!;
@@ -15,7 +15,7 @@ string TryAgainAsk()
     return i;
 }
 
-int TryAgain()      
+int TryAgain()
 {
     int i = 1;
 
@@ -96,7 +96,7 @@ while (i == 1 || i > 1)
                 Console.WriteLine();
                 Console.WriteLine("_______________________________");
 
-                ado.Insert(name, emali);
+                dp.Insert(name, emali);
                 Console.WriteLine();
 
                 i = TryAgain();
@@ -109,7 +109,7 @@ while (i == 1 || i > 1)
                 Console.WriteLine("______________________");
                 Console.WriteLine();
 
-                ado.Read();
+                dp.Read();
 
                 i = TryAgain();
 
@@ -137,7 +137,7 @@ while (i == 1 || i > 1)
                 string uemail = Console.ReadLine()!;
                 Console.WriteLine();
 
-                ado.Update(update_id, uname, uemail);
+                dp.Update(update_id, uname, uemail);
 
                 i = TryAgain();
 
@@ -155,7 +155,7 @@ while (i == 1 || i > 1)
                 int delete_id = Convert.ToInt32(D);
                 Console.WriteLine();
 
-                ado.Delete(delete_id);
+                dp.Delete(delete_id);
 
                 i = TryAgain();
 
@@ -172,7 +172,7 @@ while (i == 1 || i > 1)
                 int edit_id = Convert.ToInt32(E);
                 Console.WriteLine();
 
-                ado.Edit(edit_id);
+                dp.Edit(edit_id);
                 i = TryAgain();
 
 
