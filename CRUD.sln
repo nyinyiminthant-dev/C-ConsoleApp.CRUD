@@ -5,6 +5,10 @@ VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ado.CRUD", "CRUD\Ado.CRUD.csproj", "{588922AD-C629-4BDD-AC27-DD245E2198D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.CRUD", "Dapper.CRUD\Dapper.CRUD.csproj", "{1E4B6F1B-2403-4BC2-91A4-71C6450576AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCore.CRUD", "EfCore.CRUD\EfCore.CRUD.csproj", "{352F9A9C-C1FA-45E2-BBEB-7B9CE967CDBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{588922AD-C629-4BDD-AC27-DD245E2198D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{588922AD-C629-4BDD-AC27-DD245E2198D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{588922AD-C629-4BDD-AC27-DD245E2198D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4B6F1B-2403-4BC2-91A4-71C6450576AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4B6F1B-2403-4BC2-91A4-71C6450576AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4B6F1B-2403-4BC2-91A4-71C6450576AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4B6F1B-2403-4BC2-91A4-71C6450576AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352F9A9C-C1FA-45E2-BBEB-7B9CE967CDBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352F9A9C-C1FA-45E2-BBEB-7B9CE967CDBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352F9A9C-C1FA-45E2-BBEB-7B9CE967CDBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352F9A9C-C1FA-45E2-BBEB-7B9CE967CDBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

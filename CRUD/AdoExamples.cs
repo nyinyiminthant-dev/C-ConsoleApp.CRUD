@@ -40,7 +40,7 @@ public class AdoExample
         }
     }
 
-    public void Eidt(int id)
+    public void Edit(int id)
     {
         connecion.Open();
 
